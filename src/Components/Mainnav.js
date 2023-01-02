@@ -12,7 +12,7 @@ import './Mainnav.css'
 
  
 export default function SimpleBottomNavigation() {
-  const [value, setValue] = React.useState(0);
+  const [value, setValue] = useState(0);
   const history = useHistory();
 
   useEffect(() => {
