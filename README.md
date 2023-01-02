@@ -1,70 +1,13 @@
-# Getting Started with Create React App
+Click on this link to visit website => https://spontaneous-biscochitos-59a682.netlify.app/
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+    <~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ MOVIE MANIA ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ >
 
-## Available Scripts
+Created by : Mallela Ankitha
 
-In the project directory, you can run:
+Project Description : -> Created a website where users can search for any movie or show. They can see details like overview, cast, rating, runtime, link to trailer, etc. There is a 'Trending' section which displays movie and shows that are trending globally. Movie section to display the whole movies and a TV series section to display only tv Series and a section  called 'Genre' is added, where users can select multiple genre and search for movie or show matching with those genre. Search bar for both movies and tv shows  
 
-### `npm start`
+Why this project was chosen ? -> Wanted to improve my knowledge about fetching the api, routing, functional component, etc. This project includes all these things.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+How did you make this project ? -> This project was made on React which is a JavaScript library. Data about movies and shows, I am getting from https://www.themoviedb.org/documentation/api . Used  Some functionalities like icons,bottomnavigation,modal from material ui.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+What feature, technical aspects you had implemented ? -> Movie includes four  sections(pages), 'Trending' ,'Movies' , 'TV series' and 'Search' . With the help of react router user can switch between these pages. Data is show in the grid form. When a user clicks on any show then a modal pops up where they can see more detail of the clicked show. Through fetch api provided a link to watch the trailer. Added responsiveness so that user can use this website on both desktop and mobile devices.
